@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+body {
+    background-color: #121317;
+}
+
+#inicio {
+    margin-top: 40vh;
+}
+
+h1 {
+    color: rgb(245, 245, 245);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.pai-tabela {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #7874a7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#tabela {
+    border-radius: 3px;
+}
+
+.pai-tabela table {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+.Button-Area a,
+.Button-Area button,
+[type="submit"], 
+[type="reset"]{
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.display-button-table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.display-button-table > .Button-Area {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.group input{
+    width: 18em;
+}
+
+#b_medicos {
+    background-color: #52c1ce;
+}
+
+#b_limpar {
+    background-color: #e2ca41;
+}
+
+#b_cadastrar {
+    background-color: #e08836;
+}
+
+#b_index {
+    background-color: #c3435c;
+}
+
+[href] {
+    color: black;
+}
+
+.box-area {
+    border-radius: 12px;
+    background-color: #BEC7C7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+.box-area label,
+.box-area input,
+.box-area select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-area input,
+.box-area select {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Data-area>.box-area {
+    text-align: center;
+    padding: 50px;
+}
+
+.box-area.nome-Conv{
+    text-align: center;
+}
+.input-f{border-color:#ff0000;
+}
+
+#datee{
+   background: #3e668d;
+}
